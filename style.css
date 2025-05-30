@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --black: hsl(0, 0%, 0%);
+    --white: hsl(0, 0%, 100%);
+    --light-grayish-blue: hsl(223, 64%, 98%);
+    --grayish-blue: hsl(220, 14%, 75%);
+    --dark-grayish-blue: hsl(219, 9%, 45%);
+    --very-dark-blue: hsl(220, 13%, 13%);
+    --pale-orange: hsl(25, 100%, 94%);
+    --orange: hsl(26, 100%, 55%);
+}
+
+body{
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 12px;
+}
+
+p{
+    font-size: 16px;
+}
+ul{
+    list-style: none;
+    display: none;
+}
+
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-section-1a{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.nav-section-2{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 14px;
+}
+
+.nav-section-2 div:last-child{
+    max-width: 20%;
+    /* border: 1px solid red; */
+}
+
+.nav-section-2 div:last-child img{
+    max-width: 100%;
+}
+/* main */
+.hero-img img{
+max-width: 100%;
+}
+
+.sneakers-div{
+    position: relative;
+}
+
+#arrows-wrapper{
+    position: absolute;
+    bottom: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    right: 0;
+}
+
+.arrow-divs{
+    background-color: var(--white);
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 19px;
+}
+
+#thumbnail-wrapper{
+    display: none;
+}
+
+/* section-2 */
+#section-2-div-1 h4{
+    color: var(--dark-grayish-blue);
+    font-weight: 700;
+    font-size: 19px;
+}
+
+#section-2-div-1 h1{
+    padding: 10px 0;
+    font-size: 2rem;
+}
+
+#section-2-div-2 > p{
+    border: 3opx solid red;
+    color: var(--grayish-blue);
+    line-height: 1.9;
+}
