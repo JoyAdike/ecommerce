@@ -43,6 +43,10 @@ nav {
     align-items: center;
 }
 
+hr.line-breaker {
+        display: none;
+    }
+
 #nav-section-1a {
     display: flex;
     align-items: center;
@@ -212,12 +216,19 @@ button img {
         padding: 20px 150px;
     }
 
-    /* .nav-section-1 .nav-section-2 {
-        border-bottom: 2px solid black;
-    } */
+    hr.line-breaker {
+        display: block;
+        border-left: 0;
+        border-right: 0;
+        border-top: 2px solid var(--light-grayish-blue);
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
 
     #nav {
-        /* border-bottom: 3px solid var(--Light-grayish-blue); */
+        /* border-bottom: 1px solid var(--grayish-blue); */
+        /* border: solid black; */
         margin-top: 10px;
     }
 
